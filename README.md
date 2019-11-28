@@ -133,10 +133,14 @@ Add `--pretrained_weights weights/darknet53.conv.74` to train using a backend pr
 download dataset from: http://ufldl.stanford.edu/housenumbers/
 ### annotation
 under ./data/custom
-    python get_annotation.py
+```
+$ python get_annotation.py
+```
 ### generate train.txt and valid.txt
 under ./data/custom
-    python get_image_route.py
+```
+$ python get_image_route.py
+```
 
 ## Credit
 
