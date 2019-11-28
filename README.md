@@ -129,6 +129,14 @@ $ python3 train.py --model_def config/yolov3-custom.cfg --data_config config/cus
 
 Add `--pretrained_weights weights/darknet53.conv.74` to train using a backend pretrained on ImageNet.
 
+## SVHN dataset
+download dataset from: http://ufldl.stanford.edu/housenumbers/
+### annotation
+under ./data/custom
+    python get_annotation.py
+### generate train.txt and valid.txt
+under ./data/custom
+    python get_image_route.py
 
 ## Credit
 
